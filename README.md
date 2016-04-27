@@ -40,7 +40,7 @@ At this point you will see the "package.json" file created. The file looks somet
   
 this is the initial setting for any nodeJS project. We will have to install few additional capabilities for this porject.
 
-1. express framework 
+##express framework 
 
 Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
 
@@ -53,7 +53,7 @@ npm install express --save
 Express provides a thin layer of fundamental web application features, without obscuring Node.js features that you know and love.
 Please refer https://github.com/expressjs/body-parser for further info on express framework.
 
-2. body-parser 
+## body-parser 
 
 The nodeJS body-parser middleware basically parses JSON.
 
@@ -66,7 +66,7 @@ npm install body-parser --save
 
 please refer https://www.npmjs.com/package/body-parser-json for further info.
 
-3. method-override
+## method-override
 
 Lets you use HTTP verbs such as PUT or DELETE in places where the client doesn't support it.
 
@@ -79,7 +79,7 @@ npm install mehtod-override --save
 
 Please refer https://github.com/expressjs/method-override for further info on body-parser
 
-4. mongoose
+## mongoose
 
 Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
 
@@ -93,7 +93,7 @@ npm install mongoose --save
 
 Please refer https://github.com/Automattic/mongoose for further info on mongoose.
 
-5. morgan
+## morgan
 
 HTTP request logger middleware for node.js
 
